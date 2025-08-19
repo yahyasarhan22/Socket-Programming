@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENCS3320-Webserver</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to ENCS3320 - Computer Networks Webserver</h1> <!--Make this blue-->
+    </header>
+    <main>
+        <section class="Team_Section">
+            <h2>The Team</h2>
+            <div class="Team_Container">
+                <!-- First Team Member-->
+                <div class="Team_Member">
+                    <div class="Member_Picture">
+                        <img src="../Photos/Mohammad.png" alt="Team Member 1 Picture" title="'lorem ipsum'">
+                    </div>
+                    <div class="Member_Information">
+                        <h3>Mohammad Ewais</h3>
+                        <p class="ID">
+                            ID: 1220053
+                        </p>
+                        <div class="Member_Description">
+                            <p>
+                                Third Year Computer Systems Engineer at Birzeit University. Interested in computer networks and developement. Novice in socket programming and client-server connections.
+                            </p>
+                            <div class="list_section">
+                                <p><strong>Projects:</strong></p> 
+                                    <ul>
+                                        <li>Assembly Bin Packing Problem Solution</li>
+                                        <li>Package delivery optimization using Simulated annealing and Genetic Algorithms</li>
+
+                                    </ul>
+                                <p><strong>Skills:</strong> C, Python, HTML, CSS, Assembly, VerilogHDL</p>
+                            
+                                <p><strong>Hobbies:</strong> Baskteball, Swimming, Coding, Soccer, etc</p>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- Second Team Member-->
+                 <div class="Team_Member">
+                    <div class="Member_Picture">
+                        <img src="../Photos/Yahya.png" alt="Team Member 1 Picture" title="'lorem ipsum'">
+                    </div>
+                    <div class="Member_Information">
+                        <h3>Yahya Sarhan</h3>
+                        <p class="ID">
+                            ID: 1221858
+                        </p>
+                        <div class="Member_Description">
+                            <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, possimus voluptate minima accusamus consequatur iusto minus sapiente dicta ipsa nam sequi adipisci doloremque dolorum fugiat, quos nulla. Corrupti quas aspernatur delectus maxime odit itaque adipisci aliquid architecto eum. Blanditiis fugit, nemo quis, tempore vitae accusamus laborum fugiat eligendi a esse aperiam, aliquam in architecto illum dolor! Officiis asperiores iure laborum.
+                            </p>
+                            <p><strong>Projects:</strong></p> 
+                            <ul>
+                                <li>Assembly Bin Packing Problem Solution</li>
+                                <li>Package delivery optimization using Simulated annealing and Genetic Algorithms</li>
+
+                            </ul>    
+                            <p><strong>Skills:</strong> C, Python, JavaScipt, HTML, Assembly, VerilogHDL</p>
+                        
+                            <p><strong>Hobbies:</strong> Baskteball, Swimming, Coding, Soccer, etc</p>
+                           
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- Third Team Member-->
+                 <div class="Team_Member">
+                    <div class="Member_Picture">
+                        <img src="../Photos/Faris.png" alt="Team Member 3 Picture" title="'lorem ipsum'">
+                    </div>
+                    <div class="Member_Information">
+                        <h3>Faris Sawalmeh</h3>
+                        <p class="ID">
+                            ID: 1220013
+                        </p>
+                        <div class="Member_Description">
+                            <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, possimus voluptate minima accusamus consequatur iusto minus sapiente dicta ipsa nam sequi adipisci doloremque dolorum fugiat, quos nulla. Corrupti quas aspernatur delectus maxime odit itaque adipisci aliquid architecto eum. Blanditiis fugit, nemo quis, tempore vitae accusamus laborum fugiat eligendi a esse aperiam, aliquam in architecto illum dolor! Officiis asperiores iure laborum.
+                            </p>
+                            <p><strong>Projects:</strong></p> 
+                                    <ul>
+                                        <li>Assembly Bin Packing Problem Solution</li>
+                                        <li>Package delivery optimization using Simulated annealing and Genetic Algorithms</li>
+
+                                    </ul>    
+                            <p><strong>Skills:</strong> C, Python, JavaScipt, HTML, Assembly, VerilogHDL</p>
+                        
+                            <p><strong>Hobbies:</strong> Baskteball, Swimming, Coding, Soccer</p>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="Chapter_One_Topic">
+            <h2>Network Switching Techniques</h2>
+            <article>
+                <div class=" Article_div">
+                    <h3>Circuit Switching</h3>
+                    <div class="Article_Text">
+
+                        <p><em>Circuit Switching</em> gives a deticated "private" line between two devices. Unlike Packet switching once a connection is established, it is more reliable and less bandwidth efficient.</p>
+                        <p>Because there are limited lines between devices, the consuption of bandwidth is also limited.So there is a maximum number of connections that can be established at once. There are also 2 different types of circuit switching:</p>
+                        <ul>
+                            <li><strong>Frequency Division Multiplexing</strong></li>
+                            <li><strong>Time Division Multiplexing</strong></li>
+                        </ul>
+
+                    </div>
+                    <div class="Article_Image">
+                        <img src="../Photos/CircuitSwitching.jpeg" alt="Circuit Switching Image">
+                    </div>
+                </div>
+                <div class=" Article_div">
+                    <h3>Packet Switching</h3>
+                    <div class="Article_Text">
+                        <p><em>Packet Switching</em> is the process of breaking down a file into smaller parts called packets and sending them through multiple links instead of the file itself. Although this may seem simpler than sending an entire file at once, we run into some slight problems, facing different types of delays:</p>
+                        <ol>
+                            <li><strong>Transmission Delay</strong></li>
+                            <li><strong>Propogation Delay</strong></li>
+                            <li><strong>Queueing Delay</strong></li>
+                        </ol>
+                        <p>In packet switching the packages are sent from router to router over links where each router contains these delays. In order to send the file through multiple routers we need to make sure that all the packets are recieved in one router for it to move to another. </p>
+                        <p>Also another problem that we might face is having too much congestion over the links such that the some packets end up being lost or dropped.The image below shows a simple example of packet switching over multiple links </p>
+
+                    </div>
+                    <div class="Article_Image2">
+                        <img src="../Photos/PacketSwitching.jpg" alt="Circuit Switching Image">
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section class="SubPageSection">
+            <div class="Button">
+                <a href="mySite_1220053_en.html" target="_blank">
+                    <button>Search For Materials</button>
+                </a>
+            </div>
+        </section>
+        <!-- In your mySite_1220053_en.html -->
+<video controls>
+    <source src="../Videos/Circuit_Switching.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  
+    
+    <footer>
+        <a href="https://gaia.cs.umass.edu/kurose_ross/index.php" target="_blank">Book</a>
+        <a href="https://www.birzeit.edu/ar" target="_blank">Birzeit.edu</a>
+        <p>&copy; Mohammad Ewais, Yahya Sarhan, Faris Sawalmeh</p>
+    </footer>
+    </main>
+    
+</body>
+</html>

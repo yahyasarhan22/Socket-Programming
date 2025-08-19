@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>البحث عن المواد!</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+</head>
+
+<body class="body2">
+    <div class="header1">
+        <h1>ابحث عن الصور أو مقاطع الفيديو</h1>
+    </div>
+
+    <p>ابحث عن صورة أو فيديو!</p>
+    <br>
+    <form method="GET" action="Requested">
+        <label for="request">ابحث هنا:</label>
+        
+        <input type="text" id="request" name="request" required>
+
+        <label>
+            <input type="radio" name="type" value="image" checked> صورة
+        </label>
+
+        <label>
+            <input type="radio" name="type" value="video"> فيديو
+        </label>
+        <br>
+        <div class="Button2">
+            <button type="submit">إرسال</button>
+        </div>
+    </form>
+</body>
+
+</html>
